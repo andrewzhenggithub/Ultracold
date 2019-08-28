@@ -376,8 +376,7 @@ class System():
         """
         #return (3 * sj * gaussian_integral(0.5 * (si + sj) , 2) + ( 1 - 2 * sj) * gaussian_integral(0.5 * (si + sj) , 2))
 
-        return (v0 * gaussian_integral( 0.5 * ( si + sj + 1/r0**2 ) , 2 ))
-
+        return (v0 * gaussian_integral( 0.5 * ( si + sj + 1/r0**2 ) , 2 ))hi
     def calculate_H(self, new_state=None):
         """Compute the matrix H_{ij} from scratch and return it.
 
